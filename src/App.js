@@ -21,6 +21,15 @@ const questions = [
     ],
     correct: 2,
   },
+    {
+        title: 'Что такое props',
+        variants: [
+            'Это стейт',
+            'Это context',
+            'Это входные данные для компонентов',
+        ],
+        correct: 2,
+    },
 ];
 
 function Result({correct}) {
